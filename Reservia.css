@@ -398,6 +398,7 @@ section
  }
 
 /*ActiviteMarseille*/
+
 #ActiviteMarseille 
 {
   margin-top: 65px;
@@ -838,20 +839,20 @@ footer
 /*  < 576px  */
 @media (max-width: 576px) 
 {
-  .Contener2photos
+  .contener2photos
   {
     flex-direction: column;
     height: 100%;
     margin-bottom: 0;
   }
 
-  #AciviteMarseille .Contener2photos .plaque 
+  #AciviteMarseille .contener2photos .plaque 
   {
     min-width: 100%;
     margin-bottom: 20px;
   }
 
-  .Contener2photos.phototexte,
+  .contener2photos.phototexte,
   .Contener1photo .phototexte
   {
     justify-content: initial;
